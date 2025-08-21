@@ -1,0 +1,37 @@
+{
+  "version": "v6",
+  "scene": {
+    "id": "S-001",
+    "tone": "slow_burn",
+    "location": "rooftop",
+    "beat_idx": 0,
+    "spi": 3
+  },
+  "pc": {
+    "name": "Bullet",
+    "stance": "active",
+    "last_move": ""
+  },
+  "npcs": [
+    {
+      "id": "CNPC-1",
+      "name": "Aiko",
+      "traits": ["witty", "protective"],
+      "quirks": ["tease", "soft_dom"],
+      "rv": 0.6,
+      "pv": 0.4,
+      "voice_style": "light, clipped"
+    }
+  ],
+  "punsys": {
+    "tier": 2,
+    "wave": [0.2, 0.4, 0.55, 0.35],
+    "gate": "open"
+  },
+  "flashpoint": {
+    "armed": true,
+    "type": "jealousy",
+    "threshold": 0.7,
+    "cooldown_left": 2
+  }
+}
