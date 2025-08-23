@@ -1,0 +1,14 @@
+# v5 Job: audit
+# Purpose: Catch output drift vs v5 house style.
+
+INPUTS:
+- scene_ref: required
+
+OUTPUT FORMAT:
+Audit:
+- Language discipline: <pass|fail + 1 line>
+- Flashpoint discipline: <pass|fail + 1 line>
+- Tone & profanity: <pass|fail + 1 line>
+- Meta leakage: <pass|fail + 1 line>
+Actions:
+- If any fail: say exactly which rule to tighten next scene (1–2 bullets).

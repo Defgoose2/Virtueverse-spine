@@ -1,0 +1,15 @@
+language = "python"
+run = "python3 main.py"
+modules = ["python-3.12"]
+
+[nix]
+channel = "stable-25_05"
+packages = ["fltk14", "libxcrypt"]
+
+[[ports]]
+localPort = 5000
+externalPort = 5000
+
+[[ports]]
+localPort = 8000
+externalPort = 80

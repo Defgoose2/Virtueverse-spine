@@ -1,5 +1,9 @@
 # engine_init.py
-import os, hashlib, sys
+# [Fix]
+import hashlib
+import os
+import sys
+
 from typing import Dict
 
 ENGINE_VERSION = os.getenv("ENGINE_VERSION", "VV5Q")

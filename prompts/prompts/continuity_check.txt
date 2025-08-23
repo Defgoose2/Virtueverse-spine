@@ -1,0 +1,13 @@
+# v5 Job: continuity_check
+# Purpose: Verify promises from last outputs weren’t broken.
+
+INPUTS:
+- scene_ref: required
+
+OUTPUT FORMAT:
+Continuity:
+- Prior promise: "<quote or short paraphrase>"
+- Status: <kept|bent|broken>
+- Evidence: <1–2 lines>
+
+If broken: recommend a remedial beat for next scene in 1 line.
