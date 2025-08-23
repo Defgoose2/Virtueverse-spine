@@ -98,3 +98,11 @@ class NarrativeTurn(BaseModel):
     punsys_feedback: PunSysFeedback
     flashpoint_hint: FlashpointHint
     post_scene_breakdown: Breakdown
+class PCONPC(BaseModel):
+    id: str
+    name: str
+    traits: List[str]
+    quirks: List[str]
+    rv: float
+    pv: float
+    voice_style: str

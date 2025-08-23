@@ -1,37 +1,79 @@
 {
-  "version": "v6",
-  "scene": {
-    "id": "S-001",
-    "tone": "slow_burn",
-    "location": "rooftop",
-    "beat_idx": 0,
-    "spi": 3
+  "sessions": {
+    "s_persist": {
+      "version": "vv5-20250822",
+      "mode": "PLAY",
+      "created_at": "2025-08-22T00:00:00Z",
+      "last_seen_at": "2025-08-22T00:00:00Z"
+    }
   },
-  "pc": {
-    "name": "Bullet",
-    "stance": "active",
-    "last_move": ""
-  },
-  "npcs": [
+  "scenes": [
     {
-      "id": "CNPC-1",
-      "name": "Aiko",
-      "traits": ["witty", "protective"],
-      "quirks": ["tease", "soft_dom"],
-      "rv": 0.6,
-      "pv": 0.4,
-      "voice_style": "light, clipped"
+      "session_id": "s_persist",
+      "scene_id": "S-001",
+      "anchor_hint": null,
+      "artifact": "",
+      "rv_delta": null,
+      "pv_delta": null,
+      "resolved_flashpoint": null,
+      "meta": {
+        "tone": "slow_burn",
+        "location": "rooftop",
+        "beat_idx": 0,
+        "spi": 3
+      },
+      "created_at": "2025-08-22T00:00:00Z"
     }
   ],
-  "punsys": {
-    "tier": 2,
-    "wave": [0.2, 0.4, 0.55, 0.35],
-    "gate": "open"
-  },
-  "flashpoint": {
-    "armed": true,
-    "type": "jealousy",
-    "threshold": 0.7,
-    "cooldown_left": 2
-  }
+  "memory_bias_map": [
+    {
+      "session_id": "s_persist",
+      "key": "pc:profile",
+      "value": {
+        "name": "Bullet",
+        "stance": "active",
+        "last_move": ""
+      },
+      "salience": 1,
+      "updated_at": "2025-08-22T00:00:00Z"
+    },
+    {
+      "session_id": "s_persist",
+      "key": "npc:CNPC-1",
+      "value": {
+        "id": "CNPC-1",
+        "name": "Aiko",
+        "traits": ["witty", "protective"],
+        "quirks": ["tease", "soft_dom"],
+        "rv": 0.6,
+        "pv": 0.4,
+        "voice_style": "light, clipped"
+      },
+      "salience": 1,
+      "updated_at": "2025-08-22T00:00:00Z"
+    },
+    {
+      "session_id": "s_persist",
+      "key": "punsys:tier",
+      "value": {
+        "tier": 2,
+        "wave": [0.2, 0.4, 0.55, 0.35],
+        "gate": "open"
+      },
+      "salience": 0,
+      "updated_at": "2025-08-22T00:00:00Z"
+    },
+    {
+      "session_id": "s_persist",
+      "key": "flashpoint:jealousy",
+      "value": {
+        "armed": true,
+        "threshold": 0.7,
+        "cooldown_left": 2,
+        "state": "seeded"
+      },
+      "salience": 2,
+      "updated_at": "2025-08-22T00:00:00Z"
+    }
+  ]
 }

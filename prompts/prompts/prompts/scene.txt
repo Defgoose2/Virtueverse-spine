@@ -1,0 +1,24 @@
+# v5 Job: scene
+# Purpose: Produce one playable scene that advances exactly one flashpoint.
+
+INPUTS:
+- anchor_hint: short anchor or flashpoint name
+- answers: optional
+- strict_lang: "EN+JP"
+
+OUTPUT FORMAT (strict):
+<English narration in 3–7 lines, no meta>
+
+「<Japanese line 1>」
+「<Japanese line 2>」
+... (0–3 more lines max)
+
+Breakdown:
+- 「<JP line 1>」 -> "<EN gloss 1>"
+- 「<JP line 2>」 -> "<EN gloss 2>"
+
+Rules:
+- Exactly one flashpoint advances or resolves.
+- Keep JP lines short and natural. No romaji. No translation inline.
+- Breakdown only at the end.
+

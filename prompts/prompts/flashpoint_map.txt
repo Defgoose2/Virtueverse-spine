@@ -1,0 +1,15 @@
+# v5 Job: flashpoint_map
+# Purpose: Plan near-term tensions the scenes will aim toward.
+
+INPUTS:
+- scene_ref: optional
+
+OUTPUT FORMAT:
+Flashpoints (next 3):
+1) <name> — <1-line why-it-matters>
+2) <name> — <1-line why-it-matters>
+3) <name> — <1-line why-it-matters>
+
+Rules:
+- Each future scene resolves at most ONE flashpoint.
+- Keep hooks concrete and observable.

@@ -1,0 +1,14 @@
+# v5 Job: subs
+# Purpose: Honest subtitles for all JP lines in the last scene.
+
+INPUTS:
+- scene_ref: required
+
+OUTPUT FORMAT:
+Breakdown:
+- 「<JP>」 -> "<EN gloss>"
+- 「<JP>」 -> "<EN gloss>"
+
+Notes:
+- If any JP line is idiomatic, add (idiom) after the gloss.
+- Do NOT rewrite lines. Flag mismatch instead of "fixing" it.
