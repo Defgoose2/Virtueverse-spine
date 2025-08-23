@@ -2,8 +2,9 @@
 import os, hashlib, sys
 from typing import Dict
 
-ENGINE_VERSION = os.getenv("ENGINE_VERSION", "vv5-unknown")
-ENGINE_PATH = os.getenv("ENGINE_PATH", "./engine_v5_2025-08-22.txt")
+ENGINE_VERSION = os.getenv("ENGINE_VERSION", "VV5Q")
+ENGINE_PATH = os.getenv("ENGINE_PATH", "Virtueverse Engine V5 Quirked.txt")
+
 
 _ENGINE_TEXT: str = ""
 _ENGINE_BYTES: int = 0
